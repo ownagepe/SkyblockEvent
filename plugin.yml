@@ -1,0 +1,22 @@
+name: SBEvent
+main: Zedstar16\SBEvent\Base
+version: 1.0.0
+api: 3.22.1
+load: POSTWORLD
+author: Zedstar16
+description: sb ebent
+website: https://github.com/pmmp/PocketMine-DevTools
+
+commands:
+ is:
+  description: "Island Event Command"
+  usage: "/examplecommand"
+  permission: skeleton.command
+ info:
+  description: "Event Information"
+  permission: eventperm
+
+permissions:
+ eventperm:
+  default: true
+  description: "Example root permission node"
